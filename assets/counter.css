@@ -1,36 +1,37 @@
 * {
-    box-sizing: border-box;margin: 0; padding: 0;}
-
-button{
-    text-decoration: none;
-    transform: translateY(0px);
-    position: relative;
-    box-shadow: 3px 4px 0px 0px #1564ad;
-	background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
-	background-color:#79bbff;
-	border-radius:5px;
-	border:1px solid #337bc4;
-	display:inline-block;
-	cursor:pointer;
-	color:navy;
-	text-shadow:0px 1px 0px #528ecc;
-    outline: none;
-    cursor: pointer;
-    padding: 1rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    margin: 2rem;
-    }
-button:hover {
-    background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
-	background-color:#378de5;
-    
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-    
-    
-    button:active{
-        box-shadow: 1px 2px 0px 0px #1564ad;
-        transform: translateY(4px);
-        border-top: #cccccc;
-        border-left: #cccccc;
-    }
+
+button {
+  text-decoration: none;
+  transform: translateY(0px);
+  position: relative;
+  box-shadow: 3px 4px 0px 0px #1564ad;
+  background: linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+  background-color: #79bbff;
+  border-radius: 5px;
+  border: 1px solid #337bc4;
+  display: inline-block;
+  cursor: pointer;
+  color: navy;
+  text-shadow: 0px 1px 0px #528ecc;
+  outline: none;
+  cursor: pointer;
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin: 2rem;
+}
+button:hover {
+  background: linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+  background-color: #378de5;
+}
+
+button:active {
+  box-shadow: 1px 2px 0px 0px #1564ad;
+  transform: translateY(4px);
+  border-top: #cccccc;
+  border-left: #cccccc;
+}
