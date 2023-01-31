@@ -25,11 +25,11 @@ counter.append(paragraph);
 const buttonsDiv = createDomElement("div", ["buttons-section"], "");
 main.append(buttonsDiv);
 //three buttons
-const buttonsSection = document.querySelector(".buttons-section");
+const BUTTONS_SECTION = document.querySelector(".buttons-section");
 const BUTTON_MINUS = createDomElement("button", ["decrease-btn"], "-");
 const BUTTON_RESET = createDomElement("button", ["reset-btn"], "Reset");
 const BUTTON_PLUS = createDomElement("button", ["increase-btn"], "+");
-buttonsSection.append(BUTTON_MINUS, BUTTON_RESET, BUTTON_PLUS);
+BUTTONS_SECTION.append(BUTTON_MINUS, BUTTON_RESET, BUTTON_PLUS);
 
 //adding style to dom elements
 function updateCss(element, style) {
@@ -54,7 +54,7 @@ updateCss(paragraph, {
   "padding-top": "2rem",
 });
 
-updateCss(buttonsSection, {
+updateCss(BUTTONS_SECTION, {
   display: "flex",
   "justify-content": "center",
   "align-items": "center",
@@ -80,7 +80,7 @@ const RESET_COUNTER = () => {
   COUNTER_VALUE = 0;
 };
 // Added event listener to the buttons with event delegation
-buttonsSection.addEventListener("click", (event) => {
+BUTTONS_SECTION.addEventListener("click", (event) => {
   if (event.target.matches(".increase-btn")) {
     INCREASE_COUNTER();
   } else if (event.target.matches(".decrease-btn")) {
