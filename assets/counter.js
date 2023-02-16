@@ -40,16 +40,15 @@ updateCss(main, {
   color: "navy",
   "font-family": "'Franklin Gothic Medium', 'Arial Narrow'",
   "font-weight": "normal",
-  background: "linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%)",
-  height: "100vh",
   display: "flex",
   "flex-direction": "column",
   "justify-content": "center",
   "align-items": "center",
+  "padding-top": "8rem",
+  height: "100vh",
+  width: "100vw",
 });
-updateCss(counter, {
-  "font-size": "30px",
-});
+
 updateCss(paragraph, {
   "padding-top": "2rem",
 });
@@ -59,7 +58,6 @@ updateCss(BUTTONS_SECTION, {
   "justify-content": "center",
   "align-items": "center",
   "padding-top": "2rem",
-  "padding-bottom": "2rem",
 });
 
 //get the counter-board value
